@@ -1,6 +1,6 @@
 import { Redirect, Route, withRouter, Switch } from 'react-router';
 
-import PageTest from '@/pages/PageTest';
+import PageTest from 'pages/PageTest';
 
 const Routes = withRouter(({}) => (
   <Switch>

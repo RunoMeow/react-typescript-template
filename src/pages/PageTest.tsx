@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 
-import { useApis } from '@/apis';
-import { apisTestTest } from '@/apis/apisTest';
-import ComponentTest from '@/components/Test';
-import logo from '@assets/logo.svg';
+import { useApis } from 'apis';
+import { apisTestTest } from 'apis/apisTest';
+import ComponentTest from 'components/Test';
+import logo from 'assets/logo.svg';
 
 export default function PageTest() {
   const apis = useApis();
